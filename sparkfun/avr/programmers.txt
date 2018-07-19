@@ -1,0 +1,5 @@
+pi_grammer.name=PI_grammer
+pi_grammer.protocol=linuxspi
+pi_grammer.program.protocol=linuxspi
+pi_grammer.program.tool=avrdude
+pi_grammer.program.extra_params=-P /dev/spidev0.0 -b 2000000
